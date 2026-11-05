@@ -1,0 +1,9 @@
+services:
+  music-genre-benchmark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: music-genre-benchmark:latest
+    volumes:
+      - ./output:/app/output
+    command: python src/train.py
