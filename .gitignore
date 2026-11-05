@@ -22,3 +22,4 @@ data/*.csv
 # IDE and editors
 .vscode/
 .idea/
+

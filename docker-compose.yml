@@ -7,3 +7,4 @@ services:
     volumes:
       - ./output:/app/output
     command: python src/train.py
+

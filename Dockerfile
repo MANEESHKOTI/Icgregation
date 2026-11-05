@@ -18,3 +18,4 @@ COPY README.md /app/README.md
 
 # Default command runs training and outputs artifacts to /app/output
 CMD ["python", "src/train.py"]
+
